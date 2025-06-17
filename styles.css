@@ -57,8 +57,7 @@ body {
 
 .hand {
     width: 50%;
-    height: 6px;
-    /* background: #24181F; */
+    height: 8px;
     position: absolute;
     top: 50%;
     transform-origin: 100%; /* Sets the origin of the element to the right (at the center of the clock's face) */
@@ -68,12 +67,19 @@ body {
 
 .second-hand {
     background: #193A6D;
+    height: 4px;
+    /* padding: 2px 0; */
+    z-index: 3;
 }
 
 .minute-hand {
     background: #869296;
+    z-index: 1;
 }
 
 .hour-hand {
     background: #24181F;
+    width: 35%;
+    right: 50%;
+    z-index: 2;
 }
