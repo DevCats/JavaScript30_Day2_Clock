@@ -58,10 +58,22 @@ body {
 .hand {
     width: 50%;
     height: 6px;
-    background: #24181F;
+    /* background: #24181F; */
     position: absolute;
     top: 50%;
     transform-origin: 100%; /* Sets the origin of the element to the right (at the center of the clock's face) */
     transform: rotate(90deg); /* Sets the intitial position of the clock hands to 12 */
     transition: all 0.5s;
+}
+
+.second-hand {
+    background: #193A6D;
+}
+
+.minute-hand {
+    background: #869296;
+}
+
+.hour-hand {
+    background: #24181F;
 }
